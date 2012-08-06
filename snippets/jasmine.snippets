@@ -19,4 +19,16 @@ snippet c
 		${2}
 	});
 snippet e
-	expect(${1:thing})${2:.not}.to${3:Equal}();
+	expect(${1})${2};
+snippet tobe
+	toBe(${1});
+snippet toc
+	toContain(${1});
+snippet toe
+	toEqual(${1});
+snippet toh
+	toHaveText(/${1}/);
+snippet er
+	Ember.run( function(){
+		${1}
+	});
