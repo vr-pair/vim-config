@@ -1,11 +1,15 @@
 # vim:set ft=snippet nolist:
 
-# Jasmine test
-snippet it
-	it("${1}", function() {
-		expect(${2:"Test Implemented"}).toBe(false);
+snippet b
+	beforeEach( function() {
+		${1}
 	});
-# Jasmine description
+snippet be
+	beforeEachWithEmber( function() {
+		${1}
+	});
+snippet it
+	it("${1}", function() {${2}});
 snippet d
 	describe("${1}", function() {
 		${2}
@@ -14,17 +18,5 @@ snippet c
 	context("${1}", function() {
 		${2}
 	});
-snippet b
-	beforeEach( function() {
-		${1}
-	});
 snippet e
-	expect( ${1})${2}
-snippet tobe
-	toBe(${1});
-snippet toe
-	toEqual(${1});
-snippet er
-	Ember.run( function() {
-		${1}
-	});
+	expect(${1:thing})${2:.not}.to${3:Equal}();

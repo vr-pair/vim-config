@@ -1,19 +1,9 @@
-# Anonymous Function
+# vim:set ft=snippet nolist:
+
+# function
 snippet f
 	function(${1}) {${2}}
-snippet it
-	it("${1}", function() {
-		${2}
-	});
-snippet desc
-	describe("${1}", function() {
-		${2}
-	});
-snippet con
-	context("${1}", function() {
-		${2}
-	});
-snippet bef
-	beforeEach(function() {
-		${1}
-	});
+snippet clog
+	console.error(" =============> ${1}");
+snippet clogv
+	console.error(" =============> ${1:variable}:", ${1});
