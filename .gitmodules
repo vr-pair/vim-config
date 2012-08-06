@@ -108,3 +108,6 @@
 [submodule "bundle/handlebars"]
 	path = bundle/handlebars
 	url = git://github.com/nono/vim-handlebars.git
+[submodule "bundle/blockle"]
+	path = bundle/blockle
+	url = git://github.com/vim-scripts/blockle.vim.git
