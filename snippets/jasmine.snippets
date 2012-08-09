@@ -9,7 +9,9 @@ snippet be
 		${1}
 	});
 snippet it
-	it("${1}", function() {${2}});
+	it("${1}", function() {
+		${2}
+	});
 snippet d
 	describe("${1}", function() {
 		${2}
@@ -19,15 +21,15 @@ snippet c
 		${2}
 	});
 snippet e
-	expect(${1})${2};
+	expect( ${1})${2}
 snippet tobe
 	toBe(${1});
 snippet toc
-	toContain(${1});
+	toContain(${1})
 snippet toe
-	toEqual(${1});
+	toEqual(${1})
 snippet toh
-	toHaveText(/${1}/);
+	toHaveText(/${1}/)
 snippet er
 	Ember.run( function(){
 		${1}
