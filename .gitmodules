@@ -114,3 +114,6 @@
 [submodule "bundle/camelcasemotion"]
 	path = bundle/camelcasemotion
 	url = git://github.com/vim-scripts/camelcasemotion.git
+[submodule "bundle/replace-with-register"]
+	path = bundle/replace-with-register
+	url = git://github.com/vim-scripts/ReplaceWithRegister.git
