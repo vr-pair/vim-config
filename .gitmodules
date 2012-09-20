@@ -117,3 +117,6 @@
 [submodule "bundle/replace-with-register"]
 	path = bundle/replace-with-register
 	url = git://github.com/vim-scripts/ReplaceWithRegister.git
+[submodule "bundle/vim-coffee-script"]
+	path = bundle/vim-coffee-script
+	url = git://github.com/kchmck/vim-coffee-script.git
